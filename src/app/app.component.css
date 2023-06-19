@@ -1,13 +1,14 @@
 .first-half {
     background-image: url('../assets/images/kenrick-mills-MF9Wy1NA55I-unsplash.jpg');
     background-size: cover;
-    height: 600px;
+    height: 700px;
     width: 700px;
     display: flex;
     align-items: center;
     justify-content: center     ;
     margin-top: 80px;
     border-radius: 10px 0 0 10px;
+    padding-bottom: 20px;
 }
 
 .full-bg{
@@ -18,7 +19,7 @@
 }
 .sec-half{
     background: #ffffff;
-    height: 600px;
+    height: 700px;
     width: 600px;
     margin-top: 80px;
     display: flex;
@@ -26,11 +27,15 @@
     align-items: center;
     flex-direction: column;
     border-radius: 0 10px 10px 0;
+    padding-bottom: 20px;
     
+}
+.sec-half p{
+    margin-top: 50px;
 }
 
 .login-text {
-    padding-top: 80px;
+    padding-top: 30px;
     color: #4a4a4a;
     font-weight: 600;
     
@@ -76,7 +81,22 @@
 }
 .sign-inn{
     margin-top: 100px;
-    margin-right: 40px;
+    margin-right: 30px;
 
+
+}
+.register a{
+    text-decoration: none;
+    color: #ffffff;
+    background: #299a9e;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 8px;
+
+}
+.register{
+    margin-top: 50px;
+    margin-right: 30px;
 
 }
