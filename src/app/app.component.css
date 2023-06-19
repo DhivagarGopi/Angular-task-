@@ -1,0 +1,82 @@
+.first-half {
+    background-image: url('../assets/images/kenrick-mills-MF9Wy1NA55I-unsplash.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center     ;
+    margin-top: 80px;
+    border-radius: 10px 0 0 10px;
+}
+
+.full-bg{
+    background-image: url('../assets/images/wp2249197-grey-color-wallpapers.jpg');
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+}
+.sec-half{
+    background: #ffffff;
+    height: 600px;
+    width: 600px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0 10px 10px 0;
+    
+}
+
+.login-text {
+    padding-top: 80px;
+    color: #4a4a4a;
+    font-weight: 600;
+    
+}
+
+.sec-half h3{
+    margin-top: 60px;
+}
+
+.sec-half input{
+    width: 300px;
+    justify-content: center;
+
+}
+.sec-half .e-ma{
+    margin-top: 20px;
+
+}
+.sec-half .e-pass{
+    margin-top: 20px;
+
+}
+.sec-half .for-get{
+    text-decoration:none ;
+    color: black;
+}
+
+
+*{
+    font-family: 'Nunito';
+}
+
+
+.sign-inn a{
+    text-decoration: none;
+    color: #ffffff;
+    background: #3e3e3e;
+    padding: 20px;
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.sign-inn{
+    margin-top: 100px;
+    margin-right: 40px;
+
+
+}
